@@ -45,5 +45,11 @@ suite('Test configloader.', function () {
       done();
     });
   });
+
+  test('Loading non-existant sync throws', function () {
+    assert.throws(function () {
+      var c = config(__dirname + '/configs4');
+    });
+  });
 });
 
