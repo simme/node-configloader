@@ -103,6 +103,18 @@ If you want to force a certain environent to be used you can pass
 ```
 as a second argument to `configloader()`.
 
+# Conventions
+
+By convention _ConfigLoader_ requires you to name your configuration files
+using this pattern:
+`config(\.environment)?\.yml`
+
+If you'd like to change this pull requests making more use of the `options`
+argument are very much welcome!
+
+If _ConfigLoader_ can't find any configured environment it will fall back on
+`dev`.
+
 # Installation
 
 Install with npm:
