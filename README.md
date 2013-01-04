@@ -90,7 +90,7 @@ configloader('path/to/configs', function (err, config) {
 ```
 
 If any of the configuration files contains YAML errors the `err` argument will
-be the error from [js-yaml][http://nodeca.github.com/js-yaml/].
+be the error from [js-yaml](http://nodeca.github.com/js-yaml/).
 
 If no configurations files were found in `path/to/configs` I think you will
 get `undefined` as the second argument. :P
