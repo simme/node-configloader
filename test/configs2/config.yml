@@ -1,0 +1,9 @@
+base:
+  foo: a
+  bar: b
+  baz: c
+
+http:
+  port: 80
+  domain: foo.com
+

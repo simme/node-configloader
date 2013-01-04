@@ -1,0 +1,7 @@
+base:
+  baz: f
+
+http:
+  port: 1337
+  domain: foo.local
+
