@@ -9,7 +9,7 @@
   "scripts": {
     "test": "mocha -u tdd -G"
   },
-  "repository": "",
+  "repository": "git://github.com/simme/node-configloader.git",
   "dependencies": {
     "js-yaml": "1.0.3",
     "filemap": "*"
