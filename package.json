@@ -1,0 +1,23 @@
+{
+  "name": "configloader",
+  "version": "0.0.1",
+  "description": "Load YAML configs based on current environment.",
+  "main": "configloader.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -u tdd -G"
+  },
+  "repository": "",
+  "dependencies": {
+    "js-yaml": "1.0.3",
+    "filemap": "*"
+  },
+  "keywords": [
+    "config",
+    "yaml"
+  ],
+  "author": "Simon Ljungberg <hi@iamsim.me>",
+  "license": "ISC"
+}
